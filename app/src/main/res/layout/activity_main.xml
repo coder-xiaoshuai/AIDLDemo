@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/btn_connect_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="连接服务器"
+            />
+
+    <Button
+            android:id="@+id/btn_query_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询book"
+            />
+
+    <Button
+            android:id="@+id/btn_add_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加book"
+            />
+
+    <Button
+            android:id="@+id/btn_unregister_listener"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注销监听"
+            />
+
+    <TextView
+            android:id="@+id/text_show_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</LinearLayout>
